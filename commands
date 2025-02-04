@@ -1,0 +1,7 @@
+stress lib ---
+
+  sudo yum install stress-ng -y
+
+  putting stress on server
+
+  stress-ng --cpu 4 --cpu-load 60 --timeout 400s
